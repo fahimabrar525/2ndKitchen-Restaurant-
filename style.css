@@ -1,0 +1,499 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+[class*="col-"]{
+    float:left;
+    padding:7px;
+}
+[class*="col-"]{
+    width:100%;
+}
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
+    
+    font-family: 'Oswald', sans-serif;
+}
+.container1{
+    background-color: #2E3C49;
+}
+
+.logo-div{ 
+    margin:10px;
+    text-align: center;
+}
+.logo-div img{
+    width:190px;
+}
+
+.nav-bar{
+   text-align: center;
+   margin-top:20px;
+    
+}
+.nav-bar a{
+    display: block;
+    margin:20px;
+    text-decoration: none;
+    font-weight: bolder;
+    color:white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.nav-bar .nav:hover{
+    color:#FF7000;
+}
+
+.get-started{
+    background-color: #FF7000;
+    border-radius:100px;
+    transition: 0.3s;
+    border:none;
+    width:150px;
+    padding:5px;
+    font-size:1.2rem;
+    color:white;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+
+}
+.get-started:hover{
+    transform: scale(1.1);
+}
+
+#text-section{
+    margin-top:50px;
+}
+
+.dropdown-container{
+    display:inline;
+    position:relative;
+}
+.dropdown-content{
+    position:absolute;
+    top:25px;
+    right:-10px;
+    background-color: white;
+    width: 250px;
+    display: none;
+    text-align: center;
+}
+.dropdown-content a{
+    display: block;
+    color:black;
+}
+.dropdown-container:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a p:hover{
+   color:#FF7000;
+}
+
+.text-div{
+    text-align: center;
+    padding-left: 10px;
+
+}
+.text-div h1{
+    color:white;
+    font-size:2.8rem;
+}
+.text-div p{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+.get-started2{
+    background-color: #FF7000;
+    border-radius:100px;
+    transition: 0.3s;
+    width:180px;
+    border:none;
+    padding:15px;
+    font-size:1.2rem;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.get-started2:hover{
+    transform: scale(1.1);
+}
+
+#card-section{
+    margin-top:150px;
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+}
+
+.card-body{
+    background-color: white;
+    padding:40px;
+    height:400px;
+    border-radius: 5px;
+}
+
+.card-body a .card-logo{
+    color: #2E3C49;
+}
+
+.card-body h2{
+    color:#2E3C49 ;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.card-body p{
+    color:#A9A9A9;
+}
+.card-body .serve{
+    color:#FF8A2F;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.card-body .serve:hover{
+    transform: scale(1.1);
+}
+
+.container2{
+    margin-top:150px;
+    text-align: center;
+}
+.video-div p{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #2E3C49;
+}
+.video{
+    border:none;
+    background-color: #FF7000;
+    color:white;
+    padding:20px;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    width:220px;
+}
+
+#map-link{
+    margin: 150px 0;
+}
+.link img{
+    width:100%;
+}
+.link-desc h3{
+    font-size: 3rem;
+    color:#2E3C49;
+}
+.link-desc p{
+    font-size: 1.2rem;
+    color: #A3A3A3;
+}
+.link-desc .linkup{
+    color:#FF8A2F;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.link-desc .linkup:hover{
+    transform: scale(1.1);
+}
+
+#customization{
+    margin-bottom: 150px;
+}
+
+#customization h3{
+    font-size: 3rem;
+    color:#2E3C49;
+}
+#customization p{
+    font-size: 1.2rem;
+    color: #A3A3A3;
+}
+#customization .custom{
+    color:#FF8A2F;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#customization .custom:hover{
+    transform: scale(1.1);
+}
+#customization img{
+    width:100%;
+}
+
+#food-rating{
+    margin-bottom:150px;
+}
+
+#food-rating img{
+    width:100%;
+}
+
+#food-rating h3{
+    font-size: 3rem;
+    color:#2E3C49;
+}
+#food-rating p{
+    font-size: 1.2rem;
+    color: #A3A3A3;
+}
+#food-rating .custom{
+    color:#FF8A2F;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#food-rating .custom:hover{
+    transform: scale(1.1);
+}
+
+#sponsor h3{
+    font-size: 3rem;
+    color:#2E3C49;
+}
+#sponsor-img p{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+#sponsor-img{
+    margin:40px;
+    margin-bottom: 150px;
+}
+#sponsor-img img{
+    width:60%;
+    padding:30px 0;
+}
+#sponsor-img .spn-cus{
+    color:#FF8A2F;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#sponsor-img .spn-cus:hover{
+    transform: scale(1.1);
+}
+
+#serving{
+    margin-bottom: 70px;
+}
+#serving img{
+    width:100%;
+    padding:20px;
+}
+#serving h3{
+    text-align: left;
+    font-size: 3rem;
+    color: #2E3C49;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+#serving h4{
+    text-align: left;
+    color:#2E3C49;
+    font-size: 1.5rem;
+    padding:0 20px;
+}
+#serving .read-more{
+    color:#FF8A2F;
+    transition: 0.5s;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: left;
+    padding: 0 20px;
+}
+#serving .read-more:hover{
+    transform: scale(1.1);
+}
+
+#food-offering{
+    background-color: #2E3C49;
+    width:100%;
+    height:400px;
+    margin-bottom: 150px;
+    position: relative;
+}
+.food-offering-desc{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#food-offering h4{
+    font-size: 2.3rem;
+    color: white;
+}
+
+#blog{
+    margin-bottom: 50px;
+}
+#blog h5{
+    text-align: left;
+    font-size: 2.5rem;
+    color: #2E3C49;
+    margin:25px;
+}
+#blog img{
+   border-radius: 15px;
+   margin-top:50px;
+   width:100%;
+}
+#blog p{
+    text-align: left;
+    font-size: 1.8rem;
+    color:#2E3C49;
+    font-weight: bolder;
+}
+
+#blog .readmore{
+    color:#FF7000;
+    font-size: 1.2rem;
+}
+
+
+#about-us{
+    background-color: #2E3C49;
+    width: 100%;
+    padding:30px;
+    font-family: 'Roboto', sans-serif;
+    /* display: block; */
+    text-align: center;
+    height:470px;
+}
+
+#about-us h6{
+    font-size: 0.6rem;
+    color:white;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#about-us  a{
+    text-decoration: none;
+    color:white;
+    padding-bottom: 15px;
+}
+.block-a a{
+    display: block;
+}
+
+.logo{
+    text-align: center;
+    /* padding:20px; */
+}
+.logo img{
+    width:50px;
+    height:50px;
+  
+}
+.logo-style{
+    border-radius: 50%;
+    background-color: white;
+    color:#2E3C49;
+    padding:10px;
+    text-align: center;
+  
+}
+.con-logo{
+    text-align: center;
+    padding-top:20px;
+}
+.con-logo a{
+    padding:0 10px;
+}
+
+.chating a{
+    text-align: center;
+    padding-left:370px; 
+}
+.chating-logo{
+    padding:15px;
+    height:60px;
+    width:60px;
+    background-color: #FF7000;
+    border-radius: 50%;    
+}
+
+.copy-right{
+    text-align: center;
+    color:white;
+    padding-top:30px;
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width:768px) {
+
+    .nav-bar{
+        text-align: right;
+    }
+    .nav-bar a{
+        display: inline;
+    }
+    .logo-div{
+        text-align: left;
+    }
+
+    .text-div{
+        text-align: left;
+    }
+    .text-div h1{
+        color:white;
+        font-size:4rem;
+    }
+    .text-div p{
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+    }
+
+    #about-us{
+       height: 350px; 
+    }
+
+   .chating a{
+       padding-left: 850px;
+   }
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+}
+
+@media screen and (max-width:767px) {
+
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
